@@ -10,7 +10,8 @@
       "runners": ["axe", "htmlcs"],
       "includeNotices": false,
       "includeWarnings": true,
-      "standard": "WCAG2AA"
+      "standard": "WCAG2AA",
+      "iframes":true
     },
     "urls": ["https://melodic-gnome-4fa295.netlify.app"]
   }

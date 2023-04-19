@@ -4,8 +4,8 @@
   "description": "NYS Vehicle Marketplace Static Site",
   "main": "index.js",
   "scripts": {
-    "start":"npx eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
-    "a11y":"pa11y-ci",
+    "start": "npx eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
+    "a11y": "pa11y-ci",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "pa11y-ci": "^3.0.1",
+    "pa11y-ci-reporter-html": "^5.1.1",
     "tailwindcss": "^3.3.0"
   }
 }
